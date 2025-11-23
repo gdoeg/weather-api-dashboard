@@ -1,0 +1,11 @@
+{
+  "name": "http-server-starter",
+  "version": "1.0.0",
+  "description": "Simple static-site template using npm http-server (Codespaces-ready).",
+  "scripts": {
+    "start": "http-server -c-1 public -p 3000"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

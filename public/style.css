@@ -1,0 +1,11 @@
+:root { --gap: 16px; --radius: 14px; }
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font-family: system-ui, sans-serif; }
+.container {
+  max-width: 720px; margin: 10vh auto; padding: calc(var(--gap) * 2);
+  border: 1px solid #ddd; border-radius: var(--radius);
+}
+button {
+  padding: 10px 16px; border-radius: 10px; border: 1px solid #ccc; cursor: pointer;
+}
+button:hover { filter: brightness(0.98); }
