@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--
+	CS 248, Homework 5 (Weather)
+	You should download and use this weather.html, but do not need to modify it.
+	-->
+	<head>
+		<title>Weather</title>
+		<link href="weather.css" rel="stylesheet">
+		<script src="weather.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<section id="todaytitle">
+				<h1>Weather</h1>
+				<p id="time"></p>
+			</section>
+
+			<div id="namearea">
+				<label>
+					City Name:
+					<input id="citiesinput" list="cities" type="text">
+					<datalist id="cities"></datalist>
+				</label>
+				<button id="search" type="button">Search</button>
+			</div>
+
+			<div class="loading" id="loadingnames">
+				<img src="https://allisonobourn.com/images/5/loading.gif" alt="icon">
+				Loading...
+			</div>
+		</header>
+
+		<!-- un-hide this 'resultsarea' div when you fetch data about the city -->
+		<section id="resultsarea">
+			<div class="loading" id="loadingtoday">
+				<img src="https://allisonobourn.com/images/5/loading.gif" alt="icon">
+				<br>
+				Searching...
+			</div>
+
+			<button id="forecastbutton" type="button">Forecast</button>
+
+			<img id="now" src=" " alt="weather icon placeholder">
+			<p id="nowtemp"></p>
+			<div id="today"></div>
+
+			<!-- un-hide this 'forecastsarea' div when you fetch data about the forecast -->
+			<div id="forecastsarea">
+				<div class="loading" id="loadingforecast">
+					<img src="https://allisonobourn.com/images/5/loading.gif" alt="icon">
+					<br>
+					Searching...
+				</div>
+
+				<!-- 5 day forecast data should be inserted into this div -->
+				<div id="forecast"></div>
+			</div>
+		</section>
+
+		<!-- an empty div for inserting any error text -->
+		<div id="errors"></div>
+	</body>
+</html>
