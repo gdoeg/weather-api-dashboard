@@ -12,7 +12,7 @@
 
   const BASE_PAGE = "https://www.allisonobourn.com/weather.php";
 
-  // Allowed module-global variable
+
   let currentCity = null;
 
   window.addEventListener("load", setUp);
