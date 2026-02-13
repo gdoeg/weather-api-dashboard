@@ -56,8 +56,14 @@ The weekly view aggregates the API’s daily entries into five cards. Each card 
 - Temperature (℉)
 
 ## Screenshots
+
+**Dashboard**
 ![Dashboard](screenshots/dashboard.png)
+
+**Search**
 ![Search](screenshots/search.png)
+
+**Live Demo**
 ![Live Demo](screenshots/weather-dashboard-demo.gif)
 
 
