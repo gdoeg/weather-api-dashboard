@@ -64,6 +64,7 @@ The weekly view aggregates the API’s daily entries into five cards. Each card 
 ![Search](screenshots/search.png)
 
 **Live Demo**
+<br>
 ![Live Demo](screenshots/weather-dashboard-demo.gif)
 
 
