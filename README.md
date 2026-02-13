@@ -35,6 +35,7 @@ Notes:
 - On page load, the app fetches ?mode=cities.
 - Populates the <datalist> for user autocomplete.
 
+
 ### Current Weather (Today)
 - Fetches ?mode=oneday&city=NAME.
 - Shows:
@@ -54,6 +55,12 @@ The weekly view aggregates the API’s daily entries into five cards. Each card 
 - Weather icon
 - Temperature (℉)
 
+## Screenshots
+![Dashboard](screenshots/dashboard.png)
+![Search](screenshots/search.png)
+![Live Demo](screenshots/weather-dashboard-demo.gif)
+
+
 ## Run Locally
 1. Open the project folder.
 2. Open public/weather.html in a browser.
@@ -64,3 +71,10 @@ Optional: serve locally to avoid browser fetch restrictions.
    - http-server public
    - Then open http://localhost:8080/weather.html
 
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Fetch API
+- PHP Weather Endpoint
